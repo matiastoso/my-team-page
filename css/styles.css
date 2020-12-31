@@ -1,11 +1,29 @@
 /* FUNETES */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
 
+/* ESTILOS DEL BANNER */
+h1 {
+    font-family: 'PT Serif';
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.whoWeAre {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+}
+
 /* CSS GRID */
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5.1rem;
+    gap: 4.5rem;
 }
 
 .texto-vertical {
@@ -14,6 +32,7 @@
     text-transform: uppercase;
     font-family: 'PT Serif';
     font-weight: 400;
+    font-size: 14px;
 }
 
 h3 {
@@ -22,4 +41,22 @@ h3 {
     font-weight: 600;
     text-transform: capitalize;
     margin-bottom: -1rem;
+}
+
+.elemento2, .elemento5 {
+    margin-top: 5rem;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .elemento5 {
+        margin-top: 0px;
+    }
+
+    .elemento4, .elemento6 {
+        margin-top: 5rem;
+    }
 }
