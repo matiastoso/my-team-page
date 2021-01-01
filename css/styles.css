@@ -59,4 +59,18 @@ h3 {
     .elemento4, .elemento6 {
         margin-top: 5rem;
     }
+
+    /* TEXTO RESPONSIVE */
+    .whoWeAre {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 15px;
+        margin-bottom: -4rem;
+    }
+
+    .texto-vertical {
+        font-size: 12px;
+    }
 }
